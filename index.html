@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- SEO = Básico -->
     <!-- Cada página del sitio tiene que ser diferente el título y la descripción -->
-    <title></title>
+    <title>Examen_despliegue_2aConvocatoria</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
 
@@ -41,9 +41,68 @@
     <meta name="theme-color" content="#fafafa" />
 
   </head>
-  <body>
-    
-    
+  <body>   
+    <div class="container" id="container">
+      <header>
+        <img src="svg/figma-azul.svg" alt="icono_figmaAzul">
+        <nav>
+          <ul>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Galería</a></li>
+            <li><a href="#">Más</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section>
+          <article class="bienvenida">
+            <h1>Bienvenido al curso de FIGMA!</h1>
+            <p class="grande">Por solo</p>
+            <p class="precio grande">99€</p>
+            <p class="grande">Curso ONLINE de 10h</p>
+          </article>
+
+          <article class="rosa">
+            <h2>Ahora con un <span>50%</span> de descuento!!!</h2>
+            <p>Para conseguirlo solo rellena el formulario de la parte de abajo con tus datos</p>
+          </article>
+
+          <article class="rosa">
+            <h2>Apúrate antes de que se acabe el contador!!!</h2>
+            <div class="contador"><p>23:56:01</p></div>
+          </article>
+        </section>
+
+        <section class="form">
+          <form action="#" method="post">
+            <h2>Formulario</h2>
+            <label for="nombre">Nombre*</label>
+            <input type="text" name="nombre" id="nombre" />
+            <label for="apellidos">Apellidos*</label>
+            <input type="text" name="apellidos" id="apellidos" />
+            <label for="correo">Correo</label>
+            <input type="email" name="direccion" id="direccion" />
+            <label for="text">¿Porqué te gustaría hacer el curso?</label>
+            <textarea name="explicacion" id="textarea" cols="30" rows="5"></textarea>
+            <button>
+              <input type="submit" value="Enviar">
+              <img src="svg/Figma-blanco.svg" alt="figma_blanco">
+            </button>
+          </form>
+        </section>
+      </main>
+
+      <footer>
+        <p>Copyright</p>
+        <article class="redes">
+          <img src="svg/x.svg" alt="x">
+          <img src="svg/pinterest.svg" alt="pinterest">
+          <img src="svg/instagram.svg" alt="instagram">
+          <img src="svg/facebook.svg" alt="facebook">
+        </article>
+      </footer>
+    </div>
 
   </body>
 </html>
